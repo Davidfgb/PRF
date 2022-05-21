@@ -5,76 +5,69 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#2D2D2E"
-    tools:context=".Home">
+    tools:context=".Registrar">
 
     <LinearLayout
-        android:layout_width="330dp"
-        android:layout_height="661dp"
-        android:background="#000F34BA"
-        android:gravity="center"
+        android:layout_width="368dp"
+        android:layout_height="657dp"
+        android:gravity="center_vertical"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.595">
-
-        <LinearLayout
-            android:layout_width="345dp"
-            android:layout_height="169dp"
-            android:gravity="center|center_vertical"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="196dp"
-                android:layout_height="144dp"
-                app:srcCompat="@drawable/logo_app" />
-
-        </LinearLayout>
+        app:layout_constraintTop_toTopOf="parent">
 
         <EditText
-            android:id="@+id/editText_correo_lg"
+            android:id="@+id/editText_correo_rg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FFFFFF"
+            android:backgroundTint="#FFF7F7"
             android:ems="10"
-            android:hint="correo"
+            android:hint="Correo"
             android:inputType="textEmailAddress"
-            android:textColor="#FFFEFE"
-            android:textColorHint="#FFFFFF" />
+            android:textColorHint="#EDDFDF" />
 
         <EditText
-            android:id="@+id/editText_contraseña"
+            android:id="@+id/editText_pasword_rg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#FFFFFF"
             android:ems="10"
-            android:hint="contraseña"
+            android:hint="Contrseña"
             android:inputType="textPassword"
             android:textColorHint="#FFFFFF" />
 
+        <EditText
+            android:id="@+id/editText_confrimar_pasword_rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:hint="Confirmar contraseña"
+            android:inputType="textPassword"
+            android:textColorHint="#F3EEEE" />
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="64dp"
+            android:layout_height="82dp"
+            android:gravity="center_horizontal"
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/bn_entrar_am"
-                android:layout_width="match_parent"
-                android:layout_height="64dp"
+                android:id="@+id/bn_regitrar_rg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:backgroundTint="#1B1818"
-                android:text="entrar" />
+                android:text="registar" />
 
             <Button
-                android:id="@+id/bn_registrase_am"
-                android:layout_width="386dp"
-                android:layout_height="64dp"
+                android:id="@+id/bn_regresar_rg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:backgroundTint="#1B1818"
-                android:text="Registrase" />
-
+                android:text="regresar" />
         </LinearLayout>
 
     </LinearLayout>
