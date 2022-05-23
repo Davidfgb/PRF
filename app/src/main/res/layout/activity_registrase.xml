@@ -18,6 +18,26 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
+            android:id="@+id/editText_nombre_rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="textPersonName"
+            android:textColorHint="#F1EBEB" />
+
+        <EditText
+            android:id="@+id/editText_apellido_rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FAF6F6"
+            android:ems="10"
+            android:hint="Apellido"
+            android:inputType="textPersonName"
+            android:textColorHint="#FFFBFB" />
+
+        <EditText
             android:id="@+id/editText_correo_rg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -46,6 +66,26 @@
             android:hint="Confirmar contraseña"
             android:inputType="textPassword"
             android:textColorHint="#F3EEEE" />
+
+        <EditText
+            android:id="@+id/editText_direccion_rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:hint="Direccion"
+            android:inputType="textPersonName"
+            android:textColorHint="#FDFCFC" />
+
+        <EditText
+            android:id="@+id/editText_telefono_rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FAF7F7"
+            android:ems="10"
+            android:hint="Telefono"
+            android:inputType="textPersonName"
+            android:textColorHint="#FFFFFF" />
 
         <LinearLayout
             android:layout_width="match_parent"

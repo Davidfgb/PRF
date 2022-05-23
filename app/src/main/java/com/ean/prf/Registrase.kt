@@ -11,11 +11,13 @@ import android.widget.EditText
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
+import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 
 class Registrase : AppCompatActivity() {
 
     private lateinit var auth: FirebaseAuth;
+    val db = Firebase.firestore
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,11 +32,14 @@ class Registrase : AppCompatActivity() {
             startActivity(intent)
         }
 
-
+        val nombre= findViewById<EditText>(R.id.editText_nombre_rg)
+        val apellido= findViewById<EditText>(R.id.editText_apellido_rg)
         val txt_correo= findViewById<EditText>(R.id.editText_correo_rg)
         val txt_pasword= findViewById<EditText>(R.id.editText_pasword_rg)
         val txt_confirmar= findViewById<EditText>(R.id.editText_confrimar_pasword_rg)
         val boton_registrar= findViewById<Button>(R.id.bn_regitrar_rg)
+        val addres= findViewById<EditText>(R.id.editText_direccion_rg)
+        val phone= findViewById<EditText>(R.id.editText_telefono_rg)
 
         boton_registrar.setOnClickListener{
             try {
@@ -53,6 +58,17 @@ class Registrase : AppCompatActivity() {
                                         Toast.LENGTH_SHORT).show()
                                     Log.d(ContentValues.TAG, "signInWithCustomToken:success")
                                     val user = auth.currentUser
+                                    val usuario = hashMapOf(
+                                        "correo" to txt_correo.text.toString(),
+                                        "nombre" to nombre.text.toString(),
+                                        "apellido" to apellido.text.toString(),
+                                        "telefono" to phone.text.toString(),
+
+                                        )
+                                    db.collection("usuario")
+                                        .add(usuario).addOnSuccessListener { documentReference ->
+                                            Log.d(ContentValues.TAG, "DocumentSnapshot added with ID: ${documentReference.id}")
+                                        }
                                 } else {
                                     // If sign in fails, display a message to the user.
                                     Log.w(ContentValues.TAG, "signInWithCustomToken:failure", task.exception)
@@ -72,6 +88,7 @@ class Registrase : AppCompatActivity() {
 
             }
         }
+
 
     }
 
