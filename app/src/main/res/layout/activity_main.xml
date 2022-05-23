@@ -34,7 +34,7 @@
         </LinearLayout>
 
         <EditText
-            android:id="@+id/editText_correo_lg"
+            android:id="@+id/editText_correo_am"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#FFFFFF"
@@ -45,7 +45,7 @@
             android:textColorHint="#FFFFFF" />
 
         <EditText
-            android:id="@+id/editText_contraseña"
+            android:id="@+id/editText_pasword_am"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#FFFFFF"
