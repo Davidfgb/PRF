@@ -14,6 +14,22 @@
 
         <LinearLayout
             android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Plato Principal"
+                android:textColor="#FAF7F7"
+                android:textSize="34sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="101dp"
             android:orientation="horizontal">
 
@@ -28,40 +44,154 @@
                 android:inputType="phone"
                 android:textColor="#FFFFFF"
                 android:textColorHint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/bn_confirmar_mp"
+                android:layout_width="245dp"
+                android:layout_height="63dp"
+                android:layout_weight="1"
+                android:backgroundTint="#1B1818"
+                android:text="confirmar:" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="458dp"
+            android:layout_height="85dp"
             android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="9dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/arroz_con_pollo" />
 
             <Button
                 android:id="@+id/bn_arroz_mp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="92dp"
+                android:layout_height="77dp"
+                android:layout_gravity="center_vertical"
                 android:layout_weight="1"
-                android:text="Arrroz" />
+                android:backgroundTint="#1B1818"
+                android:text="Arrroz con pollo($8.900)" />
 
-            <Button
-                android:id="@+id/bn_sig_mp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Button" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="93dp"
+            android:layout_height="85dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="9dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img" />
+
+            <Button
+                android:id="@+id/bn_paisa_mp"
+                android:layout_width="92dp"
+                android:layout_height="77dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:backgroundTint="#1B1818"
+                android:text="Bandeja Paisa($10.000)" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="9dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img_2" />
+
+            <Button
+                android:id="@+id/bn_ajiaco_mp"
+                android:layout_width="92dp"
+                android:layout_height="77dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:backgroundTint="#1B1818"
+                android:text="ajiaco($7.500)" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="9dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img_1" />
+
+            <Button
+                android:id="@+id/bn_pasta_mp"
+                android:layout_width="92dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:backgroundTint="#1B1818"
+                android:text="Pasta($9.500)" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="9dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img_5" />
+
+            <Button
+                android:id="@+id/bn_hamburgesa_mp"
+                android:layout_width="92dp"
+                android:layout_height="77dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:backgroundTint="#1B1818"
+                android:text="hamburguesa($7.500)" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
             android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/textView_verifi_mp"
                 android:layout_width="match_parent"
-                android:layout_height="85dp"
+                android:layout_height="68dp"
                 android:layout_weight="1"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bn_siguiente_mp"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_weight="1"
+                android:backgroundTint="#1B1818"
+                android:text="siguiente" />
         </LinearLayout>
 
     </LinearLayout>

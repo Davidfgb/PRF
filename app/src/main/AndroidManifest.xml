@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PRF">
         <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
+            android:name=".factura"
+            android:exported="false" />
+        <activity
             android:name=".Menu_principal"
             android:exported="false" />
         <activity
