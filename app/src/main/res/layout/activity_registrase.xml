@@ -25,27 +25,29 @@
             android:ems="10"
             android:hint="Nombre"
             android:inputType="textPersonName"
-            android:textColorHint="#F1EBEB" />
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF" />
 
         <EditText
             android:id="@+id/editText_apellido_rg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FAF6F6"
+            android:backgroundTint="#FFFFFF"
             android:ems="10"
             android:hint="Apellido"
             android:inputType="textPersonName"
-            android:textColorHint="#FFFBFB" />
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF" />
 
         <EditText
             android:id="@+id/editText_correo_rg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FFF7F7"
+            android:backgroundTint="#FFFFFF"
             android:ems="10"
             android:hint="Correo"
             android:inputType="textEmailAddress"
-            android:textColorHint="#EDDFDF" />
+            android:textColorHint="#FFFFFF" />
 
         <EditText
             android:id="@+id/editText_pasword_rg"
@@ -55,6 +57,7 @@
             android:ems="10"
             android:hint="Contrseña"
             android:inputType="textPassword"
+            android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF" />
 
         <EditText
@@ -65,7 +68,8 @@
             android:ems="10"
             android:hint="Confirmar contraseña"
             android:inputType="textPassword"
-            android:textColorHint="#F3EEEE" />
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF" />
 
         <EditText
             android:id="@+id/editText_direccion_rg"
@@ -75,6 +79,7 @@
             android:ems="10"
             android:hint="Direccion"
             android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
             android:textColorHint="#FDFCFC" />
 
         <EditText
@@ -85,6 +90,7 @@
             android:ems="10"
             android:hint="Telefono"
             android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF" />
 
         <LinearLayout

@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
                                 Log.d(TAG, "signInWithCustomToken:success")
 
                                 //updateUI(user)
-                                val intent = Intent(this, Storach::class.java)
+                                val intent = Intent(this, Menu_principal::class.java)
                                 startActivity(intent)
                             } else {
                                 // If sign in fails, display a message to the user.

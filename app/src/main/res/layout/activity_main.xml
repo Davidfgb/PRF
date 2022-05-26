@@ -41,7 +41,7 @@
             android:ems="10"
             android:hint="correo"
             android:inputType="textEmailAddress"
-            android:textColor="#FFFEFE"
+            android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF" />
 
         <EditText
@@ -52,6 +52,7 @@
             android:ems="10"
             android:hint="contraseña"
             android:inputType="textPassword"
+            android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF" />
 
         <LinearLayout

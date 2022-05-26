@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PRF">
         <activity
+            android:name=".Menu_principal"
+            android:exported="false" />
+        <activity
             android:name=".Storach"
             android:exported="false"
             android:label="@string/title_activity_storach"
