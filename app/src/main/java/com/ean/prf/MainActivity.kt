@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
                                 Log.w(TAG, "signInWithCustomToken:failure", task.exception)
                                 Toast.makeText(baseContext, "Authentication failed.",
                                     Toast.LENGTH_SHORT).show()
-                                //updateUI(null)
+                                /pdateUI(null)
                             }
                         }
                 }
@@ -79,6 +79,7 @@ class MainActivity : AppCompatActivity() {
 
 
         }
+
 
 
 

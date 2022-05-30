@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "554737438020",
+    "project_id": "prfin-38cd2",
+    "storage_bucket": "prfin-38cd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554737438020:android:7ec79ddb03b5640cc89b11",
+        "android_client_info": {
+          "package_name": "com.ean.prf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "554737438020-g89lpkollfvne953sni32ltpvepf09ob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuhh0hpZ4DmsUgbsTvAbek1VtgV6L1s68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "554737438020-g89lpkollfvne953sni32ltpvepf09ob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
