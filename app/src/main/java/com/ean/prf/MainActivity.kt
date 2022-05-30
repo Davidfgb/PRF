@@ -34,6 +34,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val boton_Menu = findViewById<Button>(R.id.bn_menu_am)
+        boton_Menu.setOnClickListener {
+            val intent = Intent(this,Menu::class.java)
+            startActivity(intent)
+        }
+
         val correo_r = findViewById<EditText>(R.id.editText_correo_am)
         val pasword_r = findViewById<EditText>(R.id.editText_pasword_am)
         val boton_ingresar = findViewById<Button>(R.id.bn_entrar_am)

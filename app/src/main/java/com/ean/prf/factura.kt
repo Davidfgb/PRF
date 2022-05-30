@@ -1,6 +1,6 @@
 package com.ean.prf
 
-import Mundo.paswords_iguales
+
 import android.content.ContentValues
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -27,6 +27,7 @@ class factura : AppCompatActivity() {
         val boton_pagar = findViewById<Button>(R.id.bn_recuperar_fc)
         var mensaje= findViewById<TextView>(R.id.textView3_fc)
         val identifi = id.text.toString()
+
 
         boton_pagar.setOnClickListener {
             mensaje.setText("su pedido ha sido registarado correctamente, ya estamos preparando su orden." +
