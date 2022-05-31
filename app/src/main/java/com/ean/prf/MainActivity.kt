@@ -23,11 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         auth = Firebase.auth
 
-       /* val boton_Registrase=findViewById<Button>(R.id.bn_entrar_am)
-        boton_Registrase.setOnClickListener{
-            val intent= Intent(this,Registrase::class.java)
-            startActivity(intent)
-        }*/
+
         val boton_Registrase = findViewById<Button>(R.id.bn_registrase_am)
         boton_Registrase.setOnClickListener {
             val intent = Intent(this,Registrase::class.java)
@@ -65,7 +61,7 @@ class MainActivity : AppCompatActivity() {
                                 Log.w(TAG, "signInWithCustomToken:failure", task.exception)
                                 Toast.makeText(baseContext, "Authentication failed.",
                                     Toast.LENGTH_SHORT).show()
-                                /pdateUI(null)
+                                //pdateUI(null)
                             }
                         }
                 }
